@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@layer components{
+    .button-back{
+        @apply bg-[#f4f4f4] bg-gradient-to-b from-[rgba(244,244,244,1)] via-[rgba(70,70,70,1)] to-[rgba(147,179,174,1)]
+    }
+    .button-front{
+        @apply bg-[#c9c9c9] bg-gradient-to-b from-[rgba(201,201,201,1)] via-[rgba(137,153,150,1)] to-[rgba(171,201,196,1)]
+    }
+    .button2-front{
+        @apply bg-[#d5d8d8] bg-gradient-to-b from-[rgba(213,216,216,1)] to-[rgba(129,140,138,1)]
+
+    }
+}   
