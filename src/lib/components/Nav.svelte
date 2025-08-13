@@ -7,7 +7,7 @@
             <div>
                 <ul class="gap-4 flex flex-row">
                     <li><a href="/">HOME</a></li>
-                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/projects">PROJECTS</a></li>
                     <li><a href="/aboutme">ABOUT ME</a></li>
                 </ul>
             </div>
