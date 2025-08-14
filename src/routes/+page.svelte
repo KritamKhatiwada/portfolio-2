@@ -15,7 +15,7 @@
 
   // import htmllogo from "$lib/assets/css3-plain.svg"
 
-  import { gsap } from "gsap";
+import { gsap } from "gsap";
     
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // ScrollSmoother requires ScrollTrigger
@@ -73,7 +73,7 @@ onMount(()=>{
        </div>
      </div>
     
-    <p class="mt-60 w-160 text-left font-bold text-4xl">PROJECTS</p>
+    <p class="mt-40 w-160 text-left font-bold text-4xl">PROJECTS</p>
     <!-- projects -->
     <div   class="mt-8  w-160 flex flex-col gap-12">
       <!-- project 1 -->
