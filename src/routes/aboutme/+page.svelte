@@ -23,9 +23,9 @@
         </div>
     </div>
     <!-- music player -->
-    <div class="w-160">
-        <div class="w-46 h-64 rotate-346 rounded-3xl bg-green-500  ">
-             <div class="mt-40 h-60 w-44  rounded-3xl p-2 bg-zinc-100">   
+    <div class="w-160 ">
+        <div class="w-42 relative group  h-62 flex rounded-3xl bg-green-500  hover:w-90 hover:transition-all duration-400 hover:cursor-pointer">
+             <div class=" h-60 w-40  rounded-3xl p-2 bg-zinc-100">   
                  <!-- music-player-in -->
                  <div class=" w-full h-full rounded-3xl p-1 button-back">   
                      <div class="h-full w-full rounded-3xl flex justify-between flex-col p-2 button-front">
@@ -47,7 +47,7 @@
                                  </div>
                                  <!-- song name -->
                                   <div class="flex flex-col items-center justify-content">
-                                      <span class="text-[10px] text-zinc-700">Frank Ocean</span>
+                                      <span class="text-[9px] text-zinc-700">Frank Ocean</span>
                                       <span class="">Trouble</span>
                                   </div>
                                  </div>
@@ -56,6 +56,21 @@
                      </div>
                  </div>
              </div>  
+             <div class=" w-[60%] flex  hover:transition-all duration-400 delay-100  p-6 gap-4 flex-col">
+                 <div class="w-full text-white hidden group-hover:block  py-1 px-3 inset-ring hover:bg-green-600 h-14 rounded-xl">
+                     <p class="w-full text-nowrap text-sm">Frank Ocean</p>
+                     <p class="w-full">Trouble</p>
+                 </div>
+                <div class="w-full text-white hidden group-hover:block  py-1 px-3 inset-ring hover:bg-green-600 h-14 rounded-xl">
+                    <p class="w-full text-nowrap text-sm">Daniel Caeser</p>
+                    <p class="w-full">Cool</p>
+                </div>
+                <div class="w-full text-white hidden group-hover:block  py-1 px-3 inset-ring border hover:bg-green-600 h-14 rounded-xl">
+                    <p class="w-full text-nowrap text-sm">Paramore</p>
+                    <p class="w-full text-nowrap">All I Wanted</p>
+                </div>
+               
+             </div>
          </div>
     </div>
     <!-- video player -->
